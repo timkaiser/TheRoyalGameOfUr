@@ -20,7 +20,10 @@ abstract class Player {
 
     abstract Token turn(Tile[] board, int dice);
 
-    public String           getName()   {return "Player "+id;}
-    public int              getID()     {return id;}
-    public ArrayList<Token> getTokens()  {return tokens;}
+    public static int getWincounter(){return 0;};
+
+    public String           getName()       {return "Player "+id;}
+    public int              getID()         {return id;}
+    public void             setId(int id)   {this.id = id; }
+    public ArrayList<Token> getTokens()     {return tokens;}
 }

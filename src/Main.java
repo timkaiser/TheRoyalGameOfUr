@@ -1,5 +1,9 @@
 import java.util.ArrayList;
-//TODO: test if there are valid moves left
+
+/*TODO: - Wincounter
+*       - change main class
+*       - Tournament
+*/
 public class Main implements Runnable{
     /**Game board*/
     private Tile[] board;
@@ -10,8 +14,17 @@ public class Main implements Runnable{
 
     private int activePlayer;
 
+    /**Output device*/
+    private Output output;
+
+    /**Time gamepllop pauses between moves*/
+    private int sleeptime = 0;
+
     /**Setup the game*/
-    public Main(){
+    public Main(Player player1, Player player2, Output output, int sleeptime){
+        this.output = output;
+        this.sleeptime = sleeptime;
+
         /**Setup Game Board**/
         //create board tiles
         board = new Tile[14];
@@ -22,13 +35,16 @@ public class Main implements Runnable{
 
         /**Setup Players**/
         player = new Player[2];
-        player[0] = new KI(0);
-        player[1] = new KI(1);
+        player[0] = player1;
+        player[1] = player2;
         activePlayer = (int)(Math.random()*2);
 
         finishedTokens = new ArrayList[2];
         finishedTokens[0] = new ArrayList<Token>();
         finishedTokens[1] = new ArrayList<Token>();
+
+        /**print board*/
+        output.printBoard(board,player);
 
         /**Start loop**/
         new Thread(this).start();
@@ -40,23 +56,15 @@ public class Main implements Runnable{
         while(true){
             /** Player turns */
             //also: test if player has already won
-            if(turn(player[activePlayer])) break gameloop;
+            Player currentPlayer = player[activePlayer];
+            if(turn(currentPlayer)){
+                //currentPlayer.getID()
+                break gameloop;
+            }
 
-            Output.printBoard(board, player);
-            //TODO: remove
-            /*Token t = player[1].getTokens().get(0);
-            for (int i = 0; i < 15; i++) {
-                move(player[1], t, 1);
-                move(player[0], player[0].getTokens().get(0), 3);
-                //board[5].addToken(t);
-                System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n");
-                System.out.println("ID: " + t.getId() + "; Tile: " + ((t.getTile()!= null)? t.getTile().getID() : ""));
-                Output.printBoard(board, player);
-                try{Thread.sleep(100);}catch(Exception e){};
-            //}*/
+            output.printBoard(board, player);
 
-            //break gameloop;
-            try{Thread.sleep(100);}catch(Exception e){};
+            try{Thread.sleep(sleeptime);}catch(Exception e){};
         }
     }
 
@@ -69,13 +77,14 @@ public class Main implements Runnable{
 
         /**roll Dice**/
         int dice = rollDice();
+        output.println("Dice: "+dice);
 
         /**move token*/
         move(player, player.turn(board, dice), dice);
 
         /** check if player has won*/
         if(finishedTokens[player.getID()].size()==7){
-            System.out.println(player.getName() + " won!");
+            output.println(player.getName() + " won!");
             return true;
         }
 
@@ -188,6 +197,6 @@ public class Main implements Runnable{
 
     /**main methode*/
     public static void main(String args[]){
-        new Main();
+        new Main(new SimpleKI(0),new RandomKI(1),new ConsoleOutput(), 500);
     }
 }
