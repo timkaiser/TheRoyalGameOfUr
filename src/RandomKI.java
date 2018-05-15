@@ -16,4 +16,5 @@ public class RandomKI extends Player {
 
     @Override
     public String getName(){ return "Randy Random ("+id+")";}
+    public static String getType(){return "Random";}
 }

@@ -1,10 +1,13 @@
-import java.util.ArrayList;
+import java.util.*;
 
 /*TODO: - Wincounter
 *       - change main class
 *       - Tournament
 */
 public class Main implements Runnable{
+    /**Wincounter*/
+    private static HashMap <String, Integer> wincounter = new HashMap<String, Integer>();
+
     /**Game board*/
     private Tile[] board;
 
@@ -47,7 +50,7 @@ public class Main implements Runnable{
         output.printBoard(board,player);
 
         /**Start loop**/
-        new Thread(this).start();
+        run();//new Thread(this).start();
     }
 
     /**Gameloop*/
@@ -79,12 +82,14 @@ public class Main implements Runnable{
         int dice = rollDice();
         output.println("Dice: "+dice);
 
-        /**move token*/
-        move(player, player.turn(board, dice), dice);
-
+        /**move token if vaild move exists*/
+        if(doValidMovesExsist(board,player,dice)) {
+            move(player, player.turn(board, dice), dice);
+        }
         /** check if player has won*/
         if(finishedTokens[player.getID()].size()==7){
             output.println(player.getName() + " won!");
+            incrementWincounter(player.getClass().getTypeName());
             return true;
         }
 
@@ -195,8 +200,30 @@ public class Main implements Runnable{
         return ((Math.random()<0.5)?1:0)+((Math.random()<0.5)?1:0)+((Math.random()<0.5)?1:0)+((Math.random()<0.5)?1:0);
     }
 
+    /**Increments Wincounter for class*/
+    public void incrementWincounter(String winner){
+        if(!wincounter.containsKey(winner)){
+            wincounter.put(winner,0);
+        }
+        wincounter.replace(winner,wincounter.get(winner)+1);
+    }
+
+    /**Outputs wincounter to console*/
+    public static void printWincounter(){
+        Set set = wincounter.entrySet();
+        Iterator iterator = set.iterator();
+        while(iterator.hasNext()) {
+            Map.Entry mentry = (Map.Entry)iterator.next();
+            System.out.println(mentry.getKey() + ": "+ mentry.getValue());
+        }
+
+    }
+
     /**main methode*/
     public static void main(String args[]){
-        new Main(new SimpleKI(0),new RandomKI(1),new ConsoleOutput(), 500);
+        for (int i = 0; i < 100000; i++) {
+            new Main(new SimpleKI(0), new RandomKI(1), new Output(), 0);
+        }
+        printWincounter();
     }
 }

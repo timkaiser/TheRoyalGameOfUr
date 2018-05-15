@@ -23,6 +23,7 @@ abstract class Player {
     public static int getWincounter(){return 0;};
 
     public String           getName()       {return "Player "+id;}
+    public  static String   getType()       {return "Player";}
     public int              getID()         {return id;}
     public void             setId(int id)   {this.id = id; }
     public ArrayList<Token> getTokens()     {return tokens;}

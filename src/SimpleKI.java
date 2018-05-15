@@ -18,6 +18,7 @@ public class SimpleKI extends Player {
 
     @Override
     public String getName(){ return "Simpelton ("+id+")";}
+    public static String getType(){return "Simple";}
 
 
 }

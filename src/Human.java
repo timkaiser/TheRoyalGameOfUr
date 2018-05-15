@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Human extends Player {
-    /**IMPORTANT!!! DO NOT REMOVE*/
-    private static int wincounter = 0;
-    /**##########################*/
 
     public Human(int id){
         super(id);
@@ -26,7 +23,5 @@ public class Human extends Player {
         }
     }
 
-    /**IMPORTANT!!! DO NOT REMOVE*/
-    public static int getWincounter(){ return wincounter; }
-    /**##########################*/
+    public static String getType(){return "Human";}
 }
