@@ -8,10 +8,12 @@ public class Token {
         this.player = player;
     }
 
+    /**get and set methods*/
     public Tile     getTile()           { return tile; }
     public void     setTile(Tile tile)  { this.tile = tile; }
 
-    public int   getPlayer()         { return player; }
+    public int      getId()             { return id; }
+    public int      getPlayer()         { return player; }
 }
 
 

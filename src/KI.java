@@ -4,10 +4,13 @@ public class KI extends Player {
         super(id);
     }
 
+    @Override
     public Token turn(Tile[] board, int dice){
-        Token t;
+        for(Token token: tokens){
+            if(Main.isValidMove(board,token,dice)){ return token; }
+        }
 
-        return tokens.get((int)(Math.random()*tokens.size()));
+        return null;//.get((int)(Math.random()*tokens.size()));
     };
 
 }
