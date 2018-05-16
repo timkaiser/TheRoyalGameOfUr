@@ -1,30 +1,60 @@
 import java.util.ArrayList;
 
+/**Parent class for all player, both human and AI*/
 abstract class Player {
-    protected ArrayList<Token> tokens;
+    /**player ID*/
     protected int id;
 
+    /**list of tokens that did not reach the goal yet*/
+    protected ArrayList<Token> tokens;
+
+    /** Constructor
+     * @param id Player ID
+     */
     public Player(int id){
         this.id = id;
 
         tokens = new ArrayList<Token>();
 
+        /** every player starts with 7 tokens*/
         for (int i = 0; i < 7; i++) {
             tokens.add(new Token(i, this.id));
         }
     }
 
-    public void removeToken(Token token){
+    /** This method removes a token from player (used when goal is reached)
+     * @param token Token that should be removed
+     */
+    public final void removeToken(Token token){
         tokens.remove(token);
     }
 
-    abstract Token turn(Tile[] board, int dice);
+    //========== Revlevant for Competition ===========================================================================//
+    /**This method is called every time the player can move a token
+     * Override this in your AI
+     * @param board Game board
+     * @param opponentsTokens Tokens of your opponent
+     * @param dice dice result
+     * @return Token that should be moved this turn
+     */
+    abstract Token turn(Tile[] board, ArrayList<Token> opponentsTokens, int dice);
 
-    public static int getWincounter(){return 0;};
+    //================================================================================================================//
 
-    public String           getName()       {return "Player "+id;}
-    public  static String   getType()       {return "Player";}
-    public int              getID()         {return id;}
-    public void             setId(int id)   {this.id = id; }
+    //__getter and setter methods______________________________________________
+    /** This method returns the players name
+     * @return Player name (with ID)*/
+    public final String getName(){return getType()+id;}
+
+    /** This method returns the players type (relevant for wincounter)
+     * @return Player type*/
+    public String getType() {return "Player";}
+
+    /** This method returns the players ID
+     * @return Player ID*/
+    public int getID(){return id;}
+
+    /** This method returns the token list for this player
+     * @return List of players tokens (that have not reched the goal yet */
     public ArrayList<Token> getTokens()     {return tokens;}
 }

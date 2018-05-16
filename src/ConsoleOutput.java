@@ -1,19 +1,23 @@
 import java.util.ArrayList;
 
+/** This class is used to display the current state of the game on the console. */
 public class ConsoleOutput extends Output {
-    /**Output board to console*/
+    /** This method prints the current state of the game on the console
+     * @param board Gameboard
+     * @param players List of Players
+     */
     public void printBoard(Tile[] board, Player[] players){
-        /**Clean Board*/
+        //Clean Board
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
-        /**Display current tokens*/
+        //Display current tokens
         System.out.println(players[0].getName()+": Tokens left: "+players[0].getTokens().size()+"   Tokens finished: "+(7-players[0].getTokens().size()));
         System.out.println(players[1].getName()+": Tokens left: "+players[1].getTokens().size()+"   Tokens finished: "+(7-players[1].getTokens().size()));
 
-        /**Safe strings for every line in array*/
+        //Safe strings for every line in array
         String[] lines = new String[7];
 
-        /**Setup board*/
+        //Setup board
         lines[0] = " _____________↓_         _↑_____ ";
         lines[1] = "|> <|   |   |   |       |> <|   |";
         lines[2] = "|---|---|---|---|---.---|---|---|";
@@ -22,7 +26,7 @@ public class ConsoleOutput extends Output {
         lines[5] = "|> <|   |   |   |       |> <|   |";
         lines[6] = "'---'---'---'-↑-'       '-↓-'---'";
 
-        /**Place tokens*/
+        //Place tokens
         for (int p = 0; p < players.length; p++) {
             ArrayList<Token> tokens = players[p].getTokens();
             for (Token t:tokens ){
@@ -35,25 +39,24 @@ public class ConsoleOutput extends Output {
             }
         }
 
-        /**print board*/
+        //print board
         for (int i = 0; i < lines.length; i++) {
             System.out.println(lines[i]);
         }
     }
 
-    /**Outputs Strings to console*/
-    public void println(String s){
-        System.out.println(s);
-    }
+    /**This method outputs Strings to console
+     * @param s String that should be printed on the console
+     */
     public void print(String s){
         System.out.print(s);
     }
 
 
-    /**Returns corresponding ASCII-symbol for player tokens
+    /**This method returns corresponding ASCII-symbol for player tokens
      * @param playerID: ID of player
      * @param tokenID: Token we want the symbol for
-     * @return :  ❶ for player 0, ① for player 1
+     * @return :  white numbered tokens for player 0, black numbered tokens for player 1
      */
     private static char getTokenChar(int playerID, int tokenID){
         if(tokenID==0)

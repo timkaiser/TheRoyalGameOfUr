@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
-/** This class is used for human players. You can input the token you want to move via console. Using ConsoleOutput is highly recommended while playing with a human player*/
-public class Human extends Player {
+/** This AI chooses a random token to move. */
+public class RandomAI extends Player {
     /* Player attribute:
      *
      *  protected int id;      //player ID
@@ -15,7 +14,7 @@ public class Human extends Player {
      *
      *@param id Player ID
      */
-    public Human(int id){
+    public RandomAI(int id){
         super(id);
     }
 
@@ -31,18 +30,9 @@ public class Human extends Player {
     public Token turn(Tile[] board, ArrayList<Token> opponentsTokens, int dice){
         //==== Space for own code ======================================================
         while(true){
-            System.out.print("Enter Valid Token id ( ");
-            for(Token t:tokens){
-                System.out.print("("+t.getId()+") ");
-            }
-            System.out.print("):\n");
-            int id = new Scanner(System.in).nextInt();
+            int index = (int)(Math.random()*tokens.size());
+            if(Main.isValidMove(board,tokens.get(index),dice)){return tokens.get(index);}
 
-            for(Token t:tokens){
-                if(id == t.getId()){
-                    return t;
-                }
-            }
         }
         //==============================================================================
     }
@@ -50,9 +40,7 @@ public class Human extends Player {
     /** This method returns the players type (relevant for wincounter)
      * @return Player type*/
     @Override
-    public String getType(){ return "Boring Human";}
+    public String getType(){ return "Randy Random";}
 
 }
-
-
 
