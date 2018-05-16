@@ -38,3 +38,25 @@ Winner is whoever gets all of his tokens to the end first.
 
 ## AI Competition
 Goal of this project is for two or more competitors to each create an AI capable of playing this game. The Ais then compete against each other to determine the better player. The competition is repeated a couple of thousand times to take out the factor of luck. A framework is provided. Competitors only create a new class extending "Player". The class "TemplateAI" can be used as a template.
+
+## AIs
+Every competitor can present his AIs here.
+
+**Simple AI**  
+by @timkaiser (part of the framework)  
+Always moves the first valid token in it's list.
+
+**Random AI**  
+by @timkaiser (part of the framework)  
+Moves a random valid token every term.
+
+**Human (not really an AI)**  
+by @timkaiser (part of the framework)  
+Moves a token based on user input via the console. Using console output is highly recommended for this one. 
+Used for testing purposes or fun.
+
+## Results 
+**Simple AI vs Random AI**  
+SimpleAI: 92271  
+RandomAI: 7729  
+Winner: SimpleAI with 92,3% 
