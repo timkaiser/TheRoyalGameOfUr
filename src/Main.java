@@ -101,7 +101,7 @@ public class Main implements Runnable{
         output.print("Dice: "+dice+"\n");
 
         // move token if valid move exists
-        if(!doValidMovesExsist(board,player,dice)) { return true; }
+        if(!doValidMovesExsist(board,player,dice)) { return false; }
 
         //move otherwise. throw error if move is not possible
         move(player, player.turn(board, this.player[activePlayer].getTokens(), dice), dice);
@@ -254,7 +254,7 @@ public class Main implements Runnable{
      * @param args unused
      */
     public static void main(String args[]){
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100000; i++) {
             new Main(new SimpleAI(0), new RandomAI(1), new Output(), 0);
         }
         printWincounter();
