@@ -4,28 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="231" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9a99928-299b-40c4-aaaf-157a77afae21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TemplateAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/ConsoleOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/ConsoleOutput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/RandomKI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/SimpleKI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Tile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomKI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleKI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token.java" afterDir="false" />
-    </list>
+    <list default="true" id="e9a99928-299b-40c4-aaaf-157a77afae21" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="106" column="78" selection-start-line="106" selection-start-column="78" selection-end-line="106" selection-end-column="78" />
+            <state relative-caret-position="75">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -130,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleAI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SimpleAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
               <folding>
                 <element signature="e#986#987#0" expanded="true" />
                 <element signature="e#1011#1012#0" expanded="true" />
@@ -169,16 +148,16 @@
         <option value="$PROJECT_DIR$/src/Tile.java" />
         <option value="$PROJECT_DIR$/src/Token.java" />
         <option value="$PROJECT_DIR$/src/TemplateAI.java" />
-        <option value="$PROJECT_DIR$/src/SimpleAI.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/Human.java" />
         <option value="$PROJECT_DIR$/src/RandomAI.java" />
         <option value="$PROJECT_DIR$/src/ConsoleOutput.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/SimpleAI.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="559" />
@@ -298,7 +277,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,11 +287,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50130206" side_tool="true" weight="0.25264874" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986979" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986979" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18125" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -685,17 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleAI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -746,8 +713,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="106" column="78" selection-start-line="106" selection-start-column="78" selection-end-line="106" selection-end-column="78" />
+        <state relative-caret-position="75">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleAI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          <folding>
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -768,7 +746,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
