@@ -37,4 +37,4 @@ The tokens have to move over the tiles in ascending order. The top row can only 
 Winner is whoever gets all of his tokens to the end first.
 
 ## AI Competition
-Goal of this project is for two or more competitors to each create an AI capable of playing this game. The Ais then compete against each other to determine the better player. The competition is repeated a couple of thousand times to take out the factor of luck. A framework is provided. Competitors only create a new class extending "Player". 
+Goal of this project is for two or more competitors to each create an AI capable of playing this game. The Ais then compete against each other to determine the better player. The competition is repeated a couple of thousand times to take out the factor of luck. A framework is provided. Competitors only create a new class extending "Player". The class "TemplateAI" can be used as a template.
