@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Test" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="253" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a99928-299b-40c4-aaaf-157a77afae21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestAndLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestAndLearn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +36,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAndLearn.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestAndLearn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestAndLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="998">
-              <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
+            <state relative-caret-position="539">
+              <caret line="209" column="38" lean-forward="true" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+              <folding>
+                <element signature="e#7862#7863#0" expanded="true" />
+                <element signature="e#7885#7886#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrinceOfUrAI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrinceOfUrAI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrinceOfUrAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-646">
               <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
               <folding>
                 <element signature="e#1479#4345#0" />
@@ -134,9 +135,9 @@
         <option value="$PROJECT_DIR$/src/Token.java" />
         <option value="$PROJECT_DIR$/src/Tile.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
-        <option value="$PROJECT_DIR$/src/TestAndLearn.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/PrinceOfUrAI.java" />
+        <option value="$PROJECT_DIR$/src/TestAndLearn.java" />
       </list>
     </option>
   </component>
@@ -144,8 +145,8 @@
     <scope name="Test" pattern="file:src/Human.java||file:src/Main.java||file:src/Tile.java||file:src/Output.java||file:src/Player.java||file:src/SimpleAI.java||file:src/RandomAI.java||file:src/TemplateAI.java||file:src/ConsoleOutput.java||file:src/Token.java" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1078" />
-    <option name="y" value="-16" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="559" />
     <option name="height" value="1025" />
   </component>
@@ -195,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestAndLearn">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TheRoyaleGameOfUr" />
@@ -266,7 +267,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="784" height="1342" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -277,11 +278,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50390625" side_tool="true" weight="0.2746536" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49609375" visible="true" weight="0.30393198" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49609375" visible="true" weight="0.23308884" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.453125" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -707,16 +708,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestAndLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
-          <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrinceOfUrAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-646">
           <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
           <folding>
             <element signature="e#1479#4345#0" />
@@ -735,6 +729,17 @@
             <element signature="e#9126#9514#0" />
             <element signature="e#9520#9737#0" />
             <element signature="e#10489#11231#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestAndLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="209" column="38" lean-forward="true" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+          <folding>
+            <element signature="e#7862#7863#0" expanded="true" />
+            <element signature="e#7885#7886#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,6 +832,7 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
+          <last-edited>Test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -834,6 +840,9 @@
               </list>
             </option>
           </splitter-proportions>
+          <order>
+            <scope name="Test" />
+          </order>
         </settings>
       </state>
     </states>

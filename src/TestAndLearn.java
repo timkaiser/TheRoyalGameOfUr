@@ -207,7 +207,7 @@ public class TestAndLearn{
             int[] weights1 = {1800,1898,2022,520,410,1198,1066,1404,0,1822,0,256,-2,0,0};
             p1.setWeights(weights1);
 
-            new Main(p0 ,p1, new Output(), 0);
+            new Main(p0 ,new SimpleAI(1), new Output(), 0);
         }
         long time = new Date().getTime()-start;
         Main.printWincounter();
@@ -217,7 +217,7 @@ public class TestAndLearn{
 
 
     public static void main(String args[]){
-        test2();
+        turnament();
     }
 
 }
