@@ -25,7 +25,7 @@ abstract class Player {
     /** This method removes a token from player (used when goal is reached)
      * @param token Token that should be removed
      */
-    public final void removeToken(Token token){
+    public void removeToken(Token token){
         tokens.remove(token);
     }
 

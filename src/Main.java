@@ -6,6 +6,19 @@ public class Main implements Runnable{
     /** This hashmap keeps track of the winners of all games*/
     private static HashMap <String, Integer> wincounter = new HashMap<String, Integer>();
 
+    //Statistics
+    /** This measures the average game length. It's here purely out of curiosity.*/
+    private static double avgTurns = 0;
+    /** This keeps track of how many games were played. Also  purely for statistics.*/
+    private static int gamesPlayed = 0;
+    /** This keeps track of how many turns there were in one game. Again purely for statistics.*/
+    private int turnCounter = 0;
+    /** This shows the minimum amount of turns a game took. */
+    private static int minTurns = 1000000;
+    /** This shows the maximum amount of turns a game took. */
+    private static int maxTurns = 0;
+
+
     //gameboard
     /** This is the game board. it manages all tiles
      * @see Tile */
@@ -93,6 +106,8 @@ public class Main implements Runnable{
      * @param player player whos turn it is;
      * @return true if player has won, false otherwise*/
     private boolean turn(Player player){
+        //count turns
+        turnCounter++;
         //change active player (changend back in move() if you land on a double roll)
         activePlayer = (activePlayer+1)%this.player.length;
 
@@ -111,7 +126,14 @@ public class Main implements Runnable{
         //check if player has won
         if(finishedTokens[player.getID()].size()==7){
             output.print(player.getName() + " won!\n");
-            incrementWincounter(player.getClass().getTypeName());
+
+            //Statistics
+            incrementWincounter(player.getType());
+            avgTurns = (avgTurns * gamesPlayed  + turnCounter) / (gamesPlayed+1);
+            gamesPlayed++;
+            minTurns = (minTurns > turnCounter )? turnCounter : minTurns;
+            maxTurns = (maxTurns < turnCounter )? turnCounter : maxTurns;
+
             return true;
         }
 
@@ -239,6 +261,14 @@ public class Main implements Runnable{
         wincounter.replace(winner,wincounter.get(winner)+1);
     }
 
+    /** Outputs statistics to console (this is not managed in Output because the statistics should also be displayed if there is no other graphical outputs e.g. for AI only Tournaments )*/
+    public static void printStatistics(){
+        System.out.println("Games played: " + gamesPlayed);
+        System.out.println("Average turns: " + avgTurns);
+        System.out.println("Minimum turns: " + minTurns);
+        System.out.println("Maximum turns: " + maxTurns);
+    }
+
     /** Outputs wincounter to console (this is not managed in Output because the wincounter should also be displayed if there is no other graphical outputs e.g. for AI only Tournaments )*/
     public static void printWincounter(){
         Set set = wincounter.entrySet();
@@ -250,14 +280,28 @@ public class Main implements Runnable{
 
     }
 
+    /** Resets wincounter */
+    public static void resetWincounter(){
+        wincounter = new HashMap<String, Integer>();
+    }
+
+    /** Returns the number of wins one player had
+     * @param name Name of player you want to know the number of wins
+     * @return number of wins
+     */
+    public static int getWins(String name){
+        if(!wincounter.containsKey(name)){
+            return 0;
+        }
+
+        return wincounter.get(name);
+    }
+
     /** This is the main method. The programm starts here.
      * @param args unused
      */
     public static void main(String args[]){
-        for (int i = 0; i < 100000; i++) {
-            new Main(new SimpleAI(0), new RandomAI(1), new Output(), 0);
-        }
-        printWincounter();
+        new Main(new Human(0), new SimpleAI(1), new ConsoleOutput(), 0);
     }
 
 }

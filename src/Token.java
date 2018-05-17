@@ -33,6 +33,10 @@ public class Token {
      * @return Token ID*/
     public int getId() { return id; }
 
+    /** This method returns the ID of the tile the token is on
+     * @return -1 is token is on no tile, the tile ID otherwise*/
+    public int getTileId() { return (tile==null)? -1 : tile.getID(); }
+
     /** This method returns the player this token belongs to
      * @return Player this token belongs to*/
     public int      getPlayer()         { return player; }
