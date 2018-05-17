@@ -1,4 +1,4 @@
-# TheRoyalGameOfUr
+﻿# TheRoyalGameOfUr
 
 ## History
 
@@ -23,13 +23,13 @@ The Game is played with four tetrahedral dice. Each dice hast two white and two 
 **Board**  
 The board has 20 tiles. Six private tiles for both players and eight shared tiles. 5 of the tiles are double roll tiles. If your token lands on one of them you can roll the dice again. The layout can be seen here:
 
-         _____________↓_         _↑_______ 
+         _____________â†“_         _â†‘_______ 
         |>3<| 2 | 1 | 0 |       |>13<| 12 |
         |---|---|---|---|---.---|----|----|
         | 4 | 5 | 6 |>7<| 8 | 9 | 10 | 11 |
         |---|---|---|---|---'---|----|----|
         |>3<| 2 | 1 | 0 |       |>13<| 12 |
-        '---'---'---'-↑-'       '-↓--'----'
+        '---'---'---'-â†‘-'       '-â†“--'----'
         
 Double roll tiles are marked with > <.  
 The tokens have to move over the tiles in ascending order. The top row can only be used by player 1, the bottom row only by player 2. The middle row is shared by both players. You need one extra move to enter the board (e.g. with a roll of 2 you can move a token outside the game board on tile number 1), and one to leave the board. You need to leave the board on an exact roll (e.g. if your token is on tile 12 you can't leave the board with a dice roll of 3 or 4, you need a 2). If you land on the same tile in the middle row as your opponent, your opponents token gets taken from the board and has to start again at the beginning. The exception is tile number 7, tokens are safe on that one.  
@@ -55,8 +55,22 @@ by @timkaiser (part of the framework)
 Moves a token based on user input via the console. Using console output is highly recommended for this one. 
 Used for testing purposes or fun.
 
+**Prince of Ur** 
+by @timkaiser  
+Moves tokens based on an utility function with 15 diffrent factors. Created as Learning AI to find the perfect factor weights to later create the "King of Ur".
+
 ## Results 
 **Simple AI vs Random AI**  
 SimpleAI: 92271  
 RandomAI: 7729  
-Winner: SimpleAI with 92,3% 
+Winner: SimpleAI with 92.3% 
+
+**Prince of Ur vs Random AI**  
+Prince of Ur: 99888  
+Randy Random: 112  
+Winner: Prince of Ur with 99.9%
+
+**Prince of Ur vs Simple AI**   
+Prince of Ur: 94670 
+Simple AI: 5330  
+Winer: Prince of Ur with 94.7%
