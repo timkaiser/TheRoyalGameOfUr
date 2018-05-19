@@ -54,6 +54,10 @@ abstract class Player {
      * @return Player ID*/
     public int getID(){return id;}
 
+    /** This method sets the players ID
+     * @param id Player ID*/
+    public void setID(int id){this.id=id;}
+
     /** This method returns the token list for this player
      * @return List of players tokens (that have not reched the goal yet */
     public ArrayList<Token> getTokens()     {return tokens;}

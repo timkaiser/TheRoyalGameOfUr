@@ -8,7 +8,7 @@ public class ConsoleOutput extends Output {
      */
     public void printBoard(Tile[] board, Player[] players){
         //Clean Board
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        //System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
         //Display current tokens
         System.out.println(players[0].getName()+": Tokens left: "+players[0].getTokens().size()+"   Tokens finished: "+(7-players[0].getTokens().size()));

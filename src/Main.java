@@ -301,7 +301,7 @@ public class Main implements Runnable{
      * @param args unused
      */
     public static void main(String args[]){
-        new Main(new Human(0), new SimpleAI(1), new ConsoleOutput(), 0);
+        new Main( new Human(0), new KingOfUrAI(1), new ConsoleOutput(), 0);
     }
 
 }
