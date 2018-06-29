@@ -1,6 +1,6 @@
 # TheRoyalGameOfUr
 
-![Game of Ur](http://home.in.tum.de/~kaisetim/ressources/GameOfUr.jpg)
+![Game of Ur](http://kaisertim.de/ressources/GameOfUr.jpg)
 ## History
 
 "The Royal Game of Ur, also known as the Game of Twenty Squares, refers to an ancient game represented by two gameboards found in the Royal Tombs of Ur in Iraq by Sir Leonard Woolley in the 1920s. The two boards date from the First Dynasty of Ur, before 2600 BC, thus making the Royal Game of Ur one of the oldest examples of board gaming equipment found, although Senet boards found in Egyptian graves predate it as much as 900 years. The Ur-style Twenty Squares gameboard was also known in Egypt as Asseb, and has been found in Pharaoh Tutankhamen's tomb, among other places. Discovery of a tablet partially describing the gameplay has allowed the game to be played again after over 2000 years, although reconstructions of the detailed rules have differed widely."  
