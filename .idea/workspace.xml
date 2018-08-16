@@ -5,26 +5,24 @@
     <option name="CUSTOM_SCOPE_NAME" value="Test" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="253" />
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="254" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a99928-299b-40c4-aaaf-157a77afae21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PrincessOfUrAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gamepanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphicOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/ConsoleOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/ConsoleOutput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/KingOfUrAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/KingOfUrAI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/PrinceOfUrAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/PrinceOfUrAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/PrincessOfUrAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/PrincessOfUrAI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/RandomAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/RandomAI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/SimpleAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/SimpleAI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/TemplateAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/TemplateAI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/TestAndLearn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TheRoyaleGameOfUr/TestAndLearn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrinceOfUrAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrinceOfUrAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestAndLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestAndLearn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,30 +37,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5100">
-              <caret line="303" column="48" selection-start-line="303" selection-start-column="48" selection-end-line="303" selection-end-column="48" />
-              <folding>
-                <element signature="e#11026#11027#0" expanded="true" />
-                <element signature="e#11108#11109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Token.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            <state relative-caret-position="2159">
+              <caret line="127" column="50" selection-start-line="126" selection-start-column="53" selection-end-line="127" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -76,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAndLearn.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestAndLearn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestAndLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="396" column="10" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
+            <state relative-caret-position="1088">
+              <caret line="246" column="54" selection-start-line="246" selection-start-column="54" selection-end-line="246" selection-end-column="54" />
               <folding>
                 <element signature="method#test1#0;class#TestAndLearn#0" />
                 <element signature="method#test2#0;class#TestAndLearn#0" />
@@ -93,8 +69,8 @@
       <file leaf-file-name="KingOfUrAI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KingOfUrAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-840">
-              <caret line="124" column="38" lean-forward="true" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+            <state relative-caret-position="952">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -102,8 +78,8 @@
       <file leaf-file-name="ConsoleOutput.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConsoleOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="850">
+              <caret line="52" column="5" selection-start-line="47" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="method#getTokenChar#0;class#ConsoleOutput#0" />
                 <element signature="method#getRow#0;class#ConsoleOutput#0" />
@@ -115,17 +91,42 @@
       <file leaf-file-name="Output.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Output.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GraphicOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GraphicOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getRow#0;class#GraphicOutput#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gamepanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gamepanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="706">
+              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -172,13 +173,15 @@
         <option value="$PROJECT_DIR$/src/Token.java" />
         <option value="$PROJECT_DIR$/src/Tile.java" />
         <option value="$PROJECT_DIR$/src/PrincessOfUr.java" />
-        <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/ConsoleOutput.java" />
         <option value="$PROJECT_DIR$/src/PrinceOfUrAI.java" />
         <option value="$PROJECT_DIR$/src/PrincessOfUrAI.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/KingOfUrAI.java" />
         <option value="$PROJECT_DIR$/src/TestAndLearn.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Gamepanel.java" />
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/GraphicOutput.java" />
       </list>
     </option>
   </component>
@@ -186,40 +189,20 @@
     <scope name="Test" pattern="file:src/Human.java||file:src/Main.java||file:src/Tile.java||file:src/Output.java||file:src/Player.java||file:src/SimpleAI.java||file:src/RandomAI.java||file:src/TemplateAI.java||file:src/ConsoleOutput.java||file:src/Token.java" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2010" />
-    <option name="y" value="-20" />
-    <option name="width" value="559" />
-    <option name="height" value="1025" />
+    <option name="x" value="1203" />
+    <option name="y" value="98" />
+    <option name="width" value="560" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheRoyalGameOfUr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheRoyalGameOfUr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheRoyalGameOfUr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheRoyalGameOfUr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/EigeneDateien/WichtigeDokumente/Projekte/github/timkaiser/TheRoyalGameOfUr/src/Tile.java" />
-    <property name="last_opened_file_path" value="D:/Programme/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -237,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestAndLearn">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TheRoyaleGameOfUr" />
@@ -308,35 +291,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="784" height="1342" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.4293305" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50390625" side_tool="true" weight="0.2746536" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49609375" weight="0.20456398" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49609375" weight="0.18703507" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4075521" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.140625" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.4293305" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -344,26 +327,26 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49947917" weight="0.32943678" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.140625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986979" visible="true" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49609375" visible="true" weight="0.17640808" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50130206" side_tool="true" weight="0.25264874" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50390625" side_tool="true" weight="0.2746536" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32943678" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.4293305" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="7" side_tool="true" />
     </layout-to-restore>
@@ -373,7 +356,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="47" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -402,20 +385,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RandomAI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConsoleOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -667,9 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="8" lean-forward="true" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,24 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConsoleOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="method#getTokenChar#0;class#ConsoleOutput#0" />
-            <element signature="method#getRow#0;class#ConsoleOutput#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
@@ -733,21 +681,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/TestAndLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5100">
-          <caret line="303" column="48" selection-start-line="303" selection-start-column="48" selection-end-line="303" selection-end-column="48" />
+        <state relative-caret-position="1088">
+          <caret line="246" column="54" selection-start-line="246" selection-start-column="54" selection-end-line="246" selection-end-column="54" />
           <folding>
-            <element signature="e#11026#11027#0" expanded="true" />
-            <element signature="e#11108#11109#0" expanded="true" />
+            <element signature="method#test1#0;class#TestAndLearn#0" />
+            <element signature="method#test2#0;class#TestAndLearn#0" />
+            <element signature="method#test3#0;class#TestAndLearn#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/KingOfUrAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        <state relative-caret-position="952">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="50" selection-start-line="126" selection-start-column="53" selection-end-line="127" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsoleOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="52" column="5" selection-start-line="47" selection-start-column="3" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="method#getTokenChar#0;class#ConsoleOutput#0" />
+            <element signature="method#getRow#0;class#ConsoleOutput#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,22 +735,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KingOfUrAI.java">
+    <entry file="file://$PROJECT_DIR$/src/Gamepanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="124" column="38" lean-forward="true" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestAndLearn.java">
+    <entry file="file://$PROJECT_DIR$/src/GraphicOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="396" column="10" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
+        <state relative-caret-position="272">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <element signature="method#test1#0;class#TestAndLearn#0" />
-            <element signature="method#test2#0;class#TestAndLearn#0" />
-            <element signature="method#test3#0;class#TestAndLearn#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#getRow#0;class#GraphicOutput#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
         </state>
       </provider>
     </entry>

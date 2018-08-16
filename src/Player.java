@@ -61,4 +61,14 @@ abstract class Player {
     /** This method returns the token list for this player
      * @return List of players tokens (that have not reched the goal yet */
     public ArrayList<Token> getTokens()     {return tokens;}
+
+    /** This method returns the number of tokens not on board (or in goal)
+     * @return int numberOfTokens*/
+    public int getNumberTokenNotOnBoard() {
+        int number = 0;
+        for (Token t:tokens) {
+            if(t.getTile() == null){ number++; }
+        }
+        return number;
+    }
 }

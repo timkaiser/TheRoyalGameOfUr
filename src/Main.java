@@ -125,6 +125,7 @@ public class Main implements Runnable{
 
         //check if player has won
         if(finishedTokens[player.getID()].size()==7){
+            output.printBoard(board, this.player);
             output.print(player.getName() + " won!\n");
 
             //Statistics
@@ -301,7 +302,7 @@ public class Main implements Runnable{
      * @param args unused
      */
     public static void main(String args[]){
-        new Main( new Human(0), new KingOfUrAI(1), new ConsoleOutput(), 0);
+        new Main( new SimpleAI(0), new KingOfUrAI(1), new GraphicOutput(), 100);
     }
 
 }
