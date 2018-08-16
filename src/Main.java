@@ -302,7 +302,7 @@ public class Main implements Runnable{
      * @param args unused
      */
     public static void main(String args[]){
-        new Main( new SimpleAI(0), new KingOfUrAI(1), new GraphicOutput(), 100);
+        new Main( new SimpleAI(0), new KingOfUrAI(1), new ConsoleOutput(), 100);
     }
 
 }

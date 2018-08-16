@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
-public class GraphicOutput extends Output{
+public class UserInterface extends Output{
     Container mainContainer;
     JPanel panel;
     JButton[][] board;
@@ -24,11 +24,11 @@ public class GraphicOutput extends Output{
     ImageIcon stoneWhite = null;
     ImageIcon stoneBlack = null;
 
-    public GraphicOutput(){
+    public UserInterface(){
         this(false);
     }
 
-    public GraphicOutput(boolean isApplet){
+    public UserInterface(boolean isApplet){
         //Load Images
         stoneWhite = new ImageIcon(getClass().getResource("res/"+"StoneWhite.jpg"));
         stoneBlack = new ImageIcon(getClass().getResource("res/"+"StoneBlack.png"));
