@@ -51,6 +51,10 @@ Always moves the first valid token in it's list.
 by @timkaiser (part of the framework)  
 Moves a random valid token every term.
 
+**Heuristic AI**
+by @d-lowl
+Uses simple heuristic, evaluating the board for every possible move (giving points for capturing and getting roll again).
+
 **Human (not really an AI)**  
 by @timkaiser (part of the framework)  
 Moves a token based on user input via the console. Using console output is highly recommended for this one. 
@@ -61,3 +65,13 @@ Used for testing purposes or fun.
 SimpleAI: 92271  
 RandomAI: 7729  
 Winner: SimpleAI with 92,3% 
+
+**Heuristic AI vs Random AI**  
+HeuristicAI: 99563
+RandomAI: 437
+Wimmer: HeuristicAI with 99,6%
+
+**Heuristic AI vs Simple AI**  
+HeuristicAI: 88769
+SimpleAI: 11231
+Wimmer: HeuristicAI with 88.8%
